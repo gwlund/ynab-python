@@ -279,8 +279,6 @@ class TransactionDetail(object):
         :param flag_color: The flag_color of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        #if flag_color is None:
-        #    raise ValueError("Invalid value for `flag_color`, must not be `None`")  # noqa: E501
         allowed_values = ["red", "orange", "yellow", "green", "blue", "purple", "none"]  # noqa: E501
         if flag_color not in allowed_values:
             raise ValueError(
